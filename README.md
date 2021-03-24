@@ -27,6 +27,7 @@ php7.3-zmq<br>
 <br>
 Build docker with "docker build -t IMAGE_NAME ."<br>
 Example compose file<br>
+```
 php:
     image: IMAGE_NAME:tag
     volumes:
@@ -36,4 +37,4 @@ php:
     restart: always
     environment:
       TZ: "Region/City"
-
+```

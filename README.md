@@ -1,5 +1,5 @@
 # php-fpm
-Diocker image from debian buster(10) php-fpm 7.3<br>
+Docker image from debian buster(10) php-fpm 7.3<br>
 ```
 php7.3-apcu
 php7.3-apcu-bc

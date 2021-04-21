@@ -1,0 +1,21 @@
+version: "3.9"
+
+services:
+  web:
+    image: nginx:latest
+    ports: "8080:80"
+    volumes:
+      - "./test:/var/www"
+      - "./vhost.conf:/etc/nginx/conf.d/default.conf"
+    restart: always
+    environment:
+      TZ: "Europe/Warsaw"
+
+  php:
+    image: php-fpm7.3:
+    volumes:
+      - "./test:/var/www"
+    working_dir: /usr/local/src/app
+    restart: always
+    environment:
+      TZ: "Europe/Warsaw"

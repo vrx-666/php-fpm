@@ -1,5 +1,6 @@
 # php-fpm7.3
 Docker image from debian buster(10) php-fpm 7.3<br>
+pkgs installed without recommends - img must be tested<br>
 ```
 php7.3-apcu
 php7.3-apcu-bc

@@ -15,11 +15,11 @@ php7.3-imap
 php7.3-intl
 php7.3-json
 php7.3-ldap
-php7.3-mbstrin
+php7.3-mbstring
 php7.3-mysql
 php7.3-opcache
 php7.3-pgsql
-php7.3-readlin
+php7.3-readline
 php7.3-soap
 php7.3-xml
 php7.3-xsl

@@ -36,7 +36,7 @@ docker build -t IMAGE_NAME .
 Example compose file
 ```
 php:
-    image: pwa666/php7.4fpm:TAG
+    image: pwa666/php8fpm:latest
     volumes:
       - "/LOCAL/PATH/TO/PHP_FILES:/var/www"
       - "/LOCAL/PATH/TO/PHP_POOL_CONF:/etc/php8/php-fpm.d/www.conf"

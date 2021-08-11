@@ -1,5 +1,5 @@
-# php-fpm7.3
-Docker image based on alpine:3.12 providing php-fpm 7.3<br>
+# php-fpm7.4
+Docker image based on alpine:3.14 providing php-fpm 7.4<br>
 ```
 php7-apcu
 php7-pecl-apcu
@@ -36,7 +36,7 @@ docker build -t IMAGE_NAME .
 Example compose file
 ```
 php:
-    image: pwa666/php7.3fpm:TAG
+    image: pwa666/php7.4fpm:TAG
     volumes:
       - "/LOCAL/PATH/TO/PHP_FILES:/var/www"
       - "/LOCAL/PATH/TO/PHP_POOL_CONF:/etc/php7/php-fpm.d/www.conf"

@@ -1,4 +1,4 @@
-FROM alpine:3.14
+FROM alpine:3.14.1
 
 LABEL maintainer="developer@s.vrx.pl"
 LABEL version="2.0"

@@ -1,5 +1,5 @@
-# php-fpm7.4
-Docker image based on alpine:3.14 providing php-fpm 7.4<br>
+# php-fpm8
+Docker image based on alpine:3.14.1 providing php-fpm 8<br>
 ```
 php7-apcu
 php7-pecl-apcu
@@ -39,7 +39,7 @@ php:
     image: pwa666/php7.4fpm:TAG
     volumes:
       - "/LOCAL/PATH/TO/PHP_FILES:/var/www"
-      - "/LOCAL/PATH/TO/PHP_POOL_CONF:/etc/php7/php-fpm.d/www.conf"
+      - "/LOCAL/PATH/TO/PHP_POOL_CONF:/etc/php8/php-fpm.d/www.conf"
     working_dir: /usr/local/src/app
     restart: always
     environment:
